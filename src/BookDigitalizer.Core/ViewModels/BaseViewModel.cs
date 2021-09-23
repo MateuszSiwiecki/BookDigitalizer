@@ -1,0 +1,12 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using MvvmCross.ViewModels;
+
+namespace BookDigitalizer.Core.ViewModels
+{
+    public abstract class BaseViewModel : MvxViewModel
+    {
+        public bool True() => true;
+    }
+}
